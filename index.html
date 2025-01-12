@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferma de pui Deveselu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <p0>Următoarea livrare: 23.03</p0>
+        </div>
+        <nav class="navbar">
+            <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.png" alt="Logo Pui VESEL de la DeVESELu" class="site-logo">
+            </a>
+        </nav>
+        <div class="menu" id="menu">
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <img src="images/prima poza.png" alt="Logo Pui VESEL de la DeVESELu" class="site-picture1">
+        <h1 class="titlu">Ferma de pui Deveselu</h1>
+        <p class="paragraf">Cu o echipă dedicată și o tradiție bazată pe respect față de clienți și animale, ferma "Pui Vesel de la Deveselu" oferă pui sănătoși și gustoși, aducând prospețime și gustul autentic al puiului de casă direct la ușa ta!</p>
+        <h2 class="video-title">Imagini din fermă</h2>
+        <video class="site-video" autoplay loop muted playsinline>
+            <source src="videos/video.mp4" type="video/mp4">
+            Browserul tău nu suportă videoclipuri HTML5.
+        </video>
+        <section class="farm-birds">
+            <h2 class="section-title">Păsările din fermă</h2>
+            <p1 class="section-description">Te invităm să descoperi produsele noastre, rezultate din munca dedicată și din dorința de a oferi familiei tale bunătăți proaspete și pline de savoare.</p1>
+        </section> 
+        <div class="product-catalog">
+            <!-- Card produs: Pui Alb de carne -->
+            <a href="pui-carne.html" class="product-card">
+                <div class="product-image-container">
+                    <img src="images/pui de carne.jpeg" alt="Pui alb de carne" class="product-image">
+                </div>
+                <h3>🐔 Pui alb de carne 700g</h3>
+                <p class="product-price">15,00 lei RON</p>
+            </a>
+    
+            <!-- Card produs: Pui mixt carne-ouă -->
+            <a href="pui-mixt.html" class="product-card">
+                <div class="product-image-container">
+                    <img src="images/pui mixt.jpeg" alt="Pui mixt carne-ouă" class="product-image">
+                </div>
+                <h3>🐥 Pui mixt carne-ouă 700g</h3>
+                <p class="product-price">14,00 lei RON</p>
+            </a>
+        </div>  
+        <div style="text-align: center; margin-top: 20px;">
+            <p class="info-text">Cumpără direct din fermă</p>
+            <a href="tel:0786354224" class="btn-call">Programează-te pentru cumpărare</a>
+            <p class="phone-number">📞 <a href="tel:0786354224" style="color: #333; text-decoration: none;">0786 354 224</a></p>
+        </div>   
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025, Ferma de pui de la Deveselu</p>
+            <p>Informații legale:</p>
+            <ul>
+                <li>Nume firmă: ESTEBAN TRANS VET SRL</li>
+                <li>CUI: RO21105301</li>
+                <li>Nr. Reg. Comerț: J28/152/2007</li>
+                <li>Sediu social: Strada Eroilor, nr. 70, Deveselu</li>
+                <li>Telefon: 0796354224</li>
+            </ul>
+        </div>
+        <div class="anpc-banners">
+            <a href="https://anpc.ro" target="_blank">
+                <img src="images/ANPC.png" alt="Soluționarea Alternativă a Litigiilor">
+            </a>
+            <a href="https://ec.europa.eu/consumers/odr" target="_blank">
+                <img src="images/SOL.png" alt="Soluționarea Online a Litigiilor">
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

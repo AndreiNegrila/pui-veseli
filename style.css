@@ -1,0 +1,413 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FEFDF9;
+}
+
+header {
+    background-color: #FEFDF9;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #228B22; /* Verde */
+    color: white;
+    padding: 0.8rem 0;
+    font-size: 0.75rem;
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    font-weight: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+    position: relative;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.site-logo {
+    max-width: 50px; /* Dimensiune logo */
+    height: auto;
+}
+
+.site-picture1 {
+    display: block;
+    margin: auto; /* Centrează imaginea pe orizontală și adaugă spațiu deasupra și dedesubt */
+    max-width: 100%; /* Imagine responsive */
+    height: auto; /* Menține proporțiile */
+}
+
+.menu {
+    display: none;
+    background-color: #FEFDF9;
+    position: left;
+    top: 80px;
+    width: 100%;
+    padding: 1rem 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    padding: 0.5rem;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+}
+
+.menu a:hover {
+    color: #228B22; /* Verde la hover */
+}
+
+.menu-toggle {
+    font-size: 1.3rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 20px; /* Meniul în stânga */
+}
+
+.titlu {
+    font-family: 'Roboto', 'Arial', sans-serif; /* Font modern */
+    font-size: 1.9rem; /* Dimensiune mare pentru titlu */
+    font-weight: normal; /* Bold pentru un titlu proeminent */
+    text-align: center; /* Centrare pe pagină */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #333; /* Culoare gri închis */
+}
+
+.paragraf {
+    font-family: 'Roboto', 'Arial', sans-serif; /* Font modern */
+    font-size: 1rem; /* Dimensiune medie pentru descriere */
+    line-height: 1.8; /* Spațiere aerisită între rânduri */
+    text-align: center; /* Centrare pe pagină */
+    max-width: 500px !important; /* Lățimea maximă a textului */
+    margin: 0 auto 2rem auto; /* Aliniere centrală cu spațiu dedesubt */
+    font-style: italic; /* Text italic pentru paragraf */
+    color: #666; /* Culoare gri deschis */
+}
+
+
+.video-title {
+    font-family: 'Roboto', 'Arial', sans-serif; /* Font modern și subțire */
+    font-size: 1.6rem; /* Dimensiune a textului */
+    font-weight: 300; /* Greutate subțire */
+    text-align: center; /* Aliniere la centru */
+    margin: 1rem 0; /* Spațiu deasupra și dedesubt */
+    color: #333; /* Culoare text */
+}
+
+
+.site-video {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 10px; /* Colțuri rotunjite pentru un aspect plăcut */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbră subtilă */
+}
+
+.farm-birds {
+    margin: 2rem auto;
+    max-width: 700px; /* Lățimea maximă a secțiunii */
+    text-align: left; /* Aliniază tot textul la stânga */
+}
+
+.section-title {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 1.6rem; /* Dimensiune titlu */
+    font-weight: 300; /* Greutate moderată */
+    color: #333; /* Gri închis */
+    margin-bottom: 0.2rem; /* Spațiu între titlu și text */
+}
+
+.section-description {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 1rem; /* Dimensiune mai mică pentru descriere */
+    line-height: 1.8; /* Spațiere mai aerisită între rânduri */
+    color: #666; /* Gri deschis */
+    font-weight: 300; /* Font subțire */
+}
+
+footer {
+    background-color: #FEFDF9;
+    color: #333;
+    padding: 2rem 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+footer ul li {
+    margin: 0.3rem 0;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.anpc-banners {
+    display: flex;
+    justify-content: center; /* Centrează bannerele */
+    gap: 20px; /* Spațiu între bannere */
+    margin-top: 20px;
+}
+
+.anpc-banners a {
+    text-decoration: none;
+}
+
+.anpc-banners img {
+    max-width: 180px; /* Dimensiune maximă a bannerelor */
+    height: auto; /* Păstrează proporțiile */
+    border-radius: 15px; /* Colțuri rotunjite */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbră subtilă */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.anpc-banners img:hover {
+    transform: scale(1.05); /* Efect de mărire la hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Umbră mai pronunțată la hover */
+}
+
+
+@media (max-width: 600px) {
+    .catalog-title {
+        padding-left: 1rem; /* Mai puțin spațiu lateral pe mobil */
+        font-size: 1.6rem; /* Dimensiune mai mică pentru titlu pe mobil */
+    }
+    main, .farm-birds {
+        padding: 1.5rem 1rem; /* Spațiu între margini și conținut */
+    }
+
+    .section-title, .video-title {
+        margin-top: 2rem; /* Spațiu mai mare deasupra titlurilor */
+        margin-bottom: 1.5rem; /* Spațiu mai mare sub titluri */
+    }
+
+    .section-description {
+        margin-bottom: 2rem; /* Spațiu mai mare sub descriere */
+    }
+
+    .site-picture1 {
+        margin-bottom: 2rem; /* Spațiu mai mare sub imagine */
+    }
+
+    .site-video {
+        margin-bottom: 2rem; /* Spațiu sub video */
+    }
+    .product-card {
+        box-shadow: none !important; /* Elimină umbra pe mobil */
+        border: none !important; /* Poți elimina bordura dacă vrei */
+    }
+}
+
+@media (orientation: landscape) {
+    .farm-birds, main {
+        padding: 2rem 2rem; /* Adaugă spațiu pe margini */
+    }
+
+    .section-title, .section-description {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .paragraf, .section-description {
+        max-width: 70%; /* Reduce lățimea textului pentru a nu ocupa tot ecranul */
+        margin: 0 auto; /* Centrare */
+    }
+}
+
+/*CATALOG*/
+
+.catalog-title {
+    text-align: left;
+    margin: 0 auto 2rem auto; /* Titlul centrat cu spațiu jos */
+    max-width: 800px; /* Lățimea maximă */
+    padding-left: 1rem; /* Spațiu față de marginea stângă */
+    font-size: 2rem; /* Dimensiune mai mare pentru vizibilitate */
+}
+
+
+.product-catalog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.product-card {
+    background-color: #FEFDF9;
+    border-radius: 10px;
+    width: calc(50% - 1rem);
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit; /* Păstrează culoarea textului */
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.product-image-container {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0rem auto 1rem auto;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asigură umplerea cercului fără deformare */
+}
+
+.product-card h3 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #666;
+}
+
+.info-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn-call {
+    background-color: #4CAF50; /* Verde prietenos */
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px; /* Colțuri rotunjite */
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Umbră subtilă */
+}
+
+.btn-call:hover {
+    background-color: #45a049; /* Ușoară schimbare la hover */
+}
+
+.phone-number {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*PAGINA PUI*/
+.firma {
+    font-size: 10px;
+    font-weight: 100;
+    color: #666;
+}
+.product-page-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.sticky-image-container {
+    position: sticky;
+    top: 20px; /* Distanța față de marginea de sus */
+    height: 100%;
+    max-width: 400px;
+}
+
+.sticky-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-description {
+    flex: 1;
+}
+.purchase-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrează elementele pe orizontală */
+    justify-content: center;
+    text-align: center;
+}
+.related-product {
+    margin-top: 2rem;
+    text-align: center ;
+    margin-bottom: 1rem;
+}
+.title-related {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .product-page-container {
+        flex-direction: column; /* Pe telefon, elementele sunt afișate unul sub altul */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sticky-image-container {
+        position: static; /* Nu mai este sticky pe telefon */
+        margin-bottom: 1rem; /* Adaugă spațiu sub imagine */
+    }
+}
+
+

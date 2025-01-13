@@ -78,6 +78,7 @@ header {
     border: none;
     cursor: pointer;
     position: absolute;
+    color: #333;
     left: 20px; /* Meniul în stânga */
 }
 

@@ -366,15 +366,14 @@ footer a:hover {
 
 /*locatie*/
 .location-container {
-    text-align: left; /* Aliniază conținutul la stânga */
-    margin-top: 70px;
+    text-align: center; /* Aliniază conținutul la stânga */
+    margin-top: 60px;
 
 }
 
 .location-container h3 {
     font-size: 1.2rem;
     margin-bottom: 10px; /* Spațiu între text și butoane */
-    margin-left: 100px;
 }
 
 .location-row {
@@ -419,10 +418,7 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-    .location-container h3 {
-        margin-left: 0;
-        text-align: center;
-    }
+
     .catalog-title {
         padding-left: 1rem; /* Mai puțin spațiu lateral pe mobil */
         font-size: 1.6rem; /* Dimensiune mai mică pentru titlu pe mobil */

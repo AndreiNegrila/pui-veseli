@@ -206,53 +206,6 @@ footer a:hover {
 }
 
 
-@media (max-width: 600px) {
-    .catalog-title {
-        padding-left: 1rem; /* Mai puțin spațiu lateral pe mobil */
-        font-size: 1.6rem; /* Dimensiune mai mică pentru titlu pe mobil */
-    }
-    main, .farm-birds {
-        padding: 1.5rem 1rem; /* Spațiu între margini și conținut */
-    }
-
-    .section-title, .video-title {
-        margin-top: 2rem; /* Spațiu mai mare deasupra titlurilor */
-        margin-bottom: 1.5rem; /* Spațiu mai mare sub titluri */
-    }
-
-    .section-description {
-        margin-bottom: 2rem; /* Spațiu mai mare sub descriere */
-    }
-
-    .site-picture1 {
-        margin-bottom: 2rem; /* Spațiu mai mare sub imagine */
-    }
-
-    .site-video {
-        margin-bottom: 2rem; /* Spațiu sub video */
-    }
-    .product-card {
-        box-shadow: none !important; /* Elimină umbra pe mobil */
-        border: none !important; /* Poți elimina bordura dacă vrei */
-    }
-}
-
-@media (orientation: landscape) {
-    .farm-birds, main {
-        padding: 2rem 2rem; /* Adaugă spațiu pe margini */
-    }
-
-    .section-title, .section-description {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
-    .paragraf, .section-description {
-        max-width: 70%; /* Reduce lățimea textului pentru a nu ocupa tot ecranul */
-        margin: 0 auto; /* Centrare */
-    }
-}
-
 /*CATALOG*/
 
 .catalog-title {
@@ -411,4 +364,107 @@ footer a:hover {
     }
 }
 
+/*locatie*/
+.location-container {
+    text-align: left; /* Aliniază conținutul la stânga */
+    margin-top: 70px;
 
+}
+
+.location-container h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px; /* Spațiu între text și butoane */
+    margin-left: 100px;
+}
+
+.location-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Spațiu între pin și buton */
+}
+
+
+.pin-icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.pin-icon:hover {
+    transform: scale(1.2); /* Mărire pin pe hover */
+}
+
+.separator {
+    font-size: 1rem;
+    margin: 0 5px; /* Spațiu lateral */
+    color: #333;
+}
+
+.btn-waze {
+    padding: 10px 20px;
+    background-color: #0096FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-waze:hover {
+    background-color: #007ACC;
+    transform: scale(1.1); /* Mărire buton pe hover */
+}
+
+@media (max-width: 768px) {
+    .location-container h3 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .catalog-title {
+        padding-left: 1rem; /* Mai puțin spațiu lateral pe mobil */
+        font-size: 1.6rem; /* Dimensiune mai mică pentru titlu pe mobil */
+    }
+    main, .farm-birds {
+        padding: 1.5rem 1rem; /* Spațiu între margini și conținut */
+    }
+
+    .section-title, .video-title {
+        margin-top: 2rem; /* Spațiu mai mare deasupra titlurilor */
+        margin-bottom: 1.5rem; /* Spațiu mai mare sub titluri */
+    }
+
+    .section-description {
+        margin-bottom: 2rem; /* Spațiu mai mare sub descriere */
+    }
+
+    .site-picture1 {
+        margin-bottom: 2rem; /* Spațiu mai mare sub imagine */
+    }
+
+    .site-video {
+        margin-bottom: 2rem; /* Spațiu sub video */
+    }
+    .product-card {
+        box-shadow: none !important; /* Elimină umbra pe mobil */
+        border: none !important; /* Poți elimina bordura dacă vrei */
+    }
+}
+
+@media (orientation: landscape) {
+    .farm-birds, main {
+        padding: 2rem 2rem; /* Adaugă spațiu pe margini */
+    }
+
+    .section-title, .section-description {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .paragraf, .section-description {
+        max-width: 70%; /* Reduce lățimea textului pentru a nu ocupa tot ecranul */
+        margin: 0 auto; /* Centrare */
+    }
+}

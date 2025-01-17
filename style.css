@@ -116,7 +116,7 @@ header {
 
 .site-video {
     display: block;
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
     margin: 1rem auto;
     border-radius: 10px; /* Colțuri rotunjite pentru un aspect plăcut */
@@ -352,6 +352,10 @@ footer a:hover {
 
 
 @media (max-width: 768px) {
+    .site-video {
+        max-width: 85%;
+        height: auto;/
+    }
     .product-page-container {
         flex-direction: column; /* Pe telefon, elementele sunt afișate unul sub altul */
         padding-left: 10px;

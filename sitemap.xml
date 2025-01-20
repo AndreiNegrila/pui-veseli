@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://pui-veseli.com/</loc>
     <lastmod>2025-01-19</lastmod>
@@ -10,7 +11,7 @@
     <loc>https://pui-veseli.com/catalog</loc>
     <lastmod>2025-01-19</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.2</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://pui-veseli.com/contact</loc>
@@ -31,11 +32,11 @@
     <priority>0.9</priority>
   </url>
   <url>
-  <loc>https://pui-veseli.com</loc>
-  <video:video>
-    <video:content_loc>https://pui-veseli.com/videos/video.mp4</video:content_loc>
-    <video:title>Videoclip din ferma Deveselu</video:title>
-    <video:description>Imagini captivante din ferma de pui Deveselu, ilustrând calitatea și procesul nostru.</video:description>
-  </video:video>
-</url>
+    <loc>https://pui-veseli.com</loc>
+    <video:video>
+      <video:content_loc>https://pui-veseli.com/videos/video.mp4</video:content_loc>
+      <video:title>Videoclip din ferma Deveselu</video:title>
+      <video:description>Imagini captivante din ferma de pui Deveselu, ilustrând calitatea și procesul nostru.</video:description>
+    </video:video>
+  </url>
 </urlset>

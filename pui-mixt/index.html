@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ferma de pui Deveselu">
     <meta name="author" content="ESTEBAN TRANS VET SRL">
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
     <link rel="shortcut icon" href="/images/favicon.ico" />
@@ -39,7 +39,7 @@
         <nav class="navbar">
             <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
             <a href="/" class="logo-link">
-                <img src="../images/logo.png" alt="Logo Pui VESEL de la DeVESELu" class="site-logo">
+                <img src="/images/logo.png" alt="Logo Pui VESEL de la DeVESELu" class="site-logo">
             </a>
         </nav>
         <div class="menu" id="menu">
@@ -54,7 +54,7 @@
         <div class="product-page-container" style="display: flex; gap: 2rem; align-items: flex-start;">
             <!-- Imaginea care rămâne fixată -->
             <div class="sticky-image-container">
-                <img src="../images/pui mixt.jpeg" alt="Pui mixt carne-ouă" class="sticky-image">
+                <img src="/images/pui mixt.jpeg" alt="Pui mixt carne-ouă" class="sticky-image">
             </div>
         
             <!-- Secțiunea de descriere -->
@@ -84,7 +84,7 @@
             <h class="title-related">Poate următorul e preferatul tău!</h>
             <a href="/pui-carne" class="product-card">
                 <div class="product-image-container">
-                    <img src="../images/pui de carne.jpeg" alt="Pui alb de carne" class="product-image">
+                    <img src="/images/pui de carne.jpeg" alt="Pui alb de carne" class="product-image">
                 </div>
                 <h3>🐔 Pui alb de carne 800g</h3>
                 <p class="product-price">15,00 lei RON</p>
@@ -93,13 +93,15 @@
         <div class="location-container">
             <h3>Locație fermă:</h3>
             <div class="location-row">
-                <img src="../images/pin-icon.png" alt="Locație Google Maps" class="pin-icon" onclick="window.open('https://www.google.com/maps?q=44.037222,24.400278', '_blank')">
+                <a href="https://www.google.com/maps?q=44.037222,24.400278" target="_blank">
+                    <img src="/images/pin-icon.png" alt="Locație Google Maps" class="pin-icon">
+                </a>
                 <span class="separator">sau</span>
-                <button class="btn-waze" onclick="window.open('https://waze.com/ul?ll=44.037222,24.400278&navigate=yes', '_blank')">
+                <a href="https://waze.com/ul?ll=44.037222,24.400278&navigate=yes" target="_blank" class="btn-waze">
                     Navighează cu Waze
-                </button>
+                </a>
             </div>
-        </div>
+        </div>        
     </main>
     <footer>
         <div class="footer-content">
@@ -115,13 +117,13 @@
         </div>
         <div class="anpc-banners">
             <a href="https://anpc.ro" target="_blank">
-                <img src="../images/ANPC.png" alt="Soluționarea Alternativă a Litigiilor">
+                <img src="/images/ANPC.png" alt="Soluționarea Alternativă a Litigiilor">
             </a>
             <a href="https://ec.europa.eu/consumers/odr" target="_blank">
-                <img src="../images/SOL.png" alt="Soluționarea Online a Litigiilor">
+                <img src="/images/SOL.png" alt="Soluționarea Online a Litigiilor">
             </a>
         </div>
     </footer>
-    <script src="../script.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
